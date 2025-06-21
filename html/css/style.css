@@ -1,0 +1,116 @@
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.navbar {
+    border-bottom: 2px solid #ffffff;
+}
+
+.me-2 {
+    width: 5%;
+}
+
+.hacker-img {
+    max-width: 50%;
+    height: auto;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.hacker-input {
+    background-color: #0d0d0d;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 0.5rem;
+    font-family: 'Courier New', monospace;
+}
+.hacker-input::placeholder {
+    color: #ffffff;
+    opacity: 0.7;
+}
+.hacker-input:focus {
+    background-color: #0d0d0d;
+    border-color: #ffffff;;
+    box-shadow: 0 0 5px #ffffff;
+    color: #ffffff;
+}
+
+.story-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.story-text {
+    max-width: 50%;
+    text-align: left;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    border: none;
+    color: #0d0d0d;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #42f5ce
+    ;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.btm-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+    transition: all 0.3s ease;
+}
+.btm-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.hacker-input[type="file"] {
+    padding: 0.5rem;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: #0d0d0d;
+    font-family: 'Courier New', monospace;
+}
+.hacker-input[type="file"]::file-selector-button {
+    background-color: #ffffff;
+    border: none;
+    color: #0d0d0d;
+    padding: 0.5rem 1rem;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.hacker-input[type="file"]::file-selector-button:hover {
+    background-color: #ffffff;;
+}
