@@ -39,7 +39,7 @@
         header("Location: /profile.php");
         exit;
     }
-    $link = mysqli_connect('127.0.0.1', 'root', 'kali', 'first');
+    $link = mysqli_connect('db', 'root', 'kali', 'first');
 
     if (isset($_POST['submit'])) {
         $email = $_POST['email'];
